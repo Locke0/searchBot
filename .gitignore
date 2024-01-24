@@ -1,0 +1,55 @@
+# Ignore system and editor files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore compiled Java classes and JAR files
+*.class
+*.jar
+
+# Ignore compiled C++ files
+*.out
+*.o
+*.so
+
+# Ignore compiled binaries
+/bin/
+/build/
+/dist/
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore environment-specific configuration
+.env
+
+# Ignore user-specific project files
+.idea/
+.vscode/
+
+# Ignore generated documentation
+/docs/
+
+# Ignore OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignore compiled Unity3D files
+Library/
+Temp/
+Obj/
